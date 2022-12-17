@@ -4,3 +4,14 @@
 
 # - [2, 3, 4, 5, 6] => [12, 15, 16];
 # - [2, 3, 5, 6] => [12, 15]
+
+
+mass = [1,3,5,6,8,-1,4]
+mass2=[]
+for i in range(len(mass)//2+len(mass)%2):
+    mass2.append(mass[i]*mass[len(mass)-1-i])
+print(mass2)
+
+
+
+
