@@ -4,3 +4,8 @@
 
 # - при d = 0.001, π = 3.141
 # - при d = 0.0001, π = 3.1415  
+
+import math
+
+d = input('Введите точность ')
+print(round(math.pi,len(d)-2))
